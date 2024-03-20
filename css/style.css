@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  background-image: url(../img/header-bg-image.png);
+  height: 611px;
+  background-size: cover;
+}
+
+header .navbar svg path {
+  transition: all 0.4s;
+}
+
+header .navbar svg:hover .path1 {
+  fill: black;
+}
+
+header .navbar svg:hover .path2 {
+  fill: #F5F6F7;
+}
+
+main .balenciaga {
+  background-image: url(../img/Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+main .balenciaga2 {
+  background-image: url(../img/Image\(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+main .balenciaga3 {
+  background-image: url(../img/Image\(3\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}/*# sourceMappingURL=style.css.map */

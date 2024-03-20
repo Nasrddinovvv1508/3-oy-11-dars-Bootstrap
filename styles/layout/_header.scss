@@ -1,0 +1,21 @@
+header {
+  background-image: url(../img/header-bg-image.png);
+  height: 611px;
+  background-size: cover;
+
+  .navbar {
+    svg path {
+      transition: all 0.4s;
+    }
+
+    svg:hover {
+      .path1 {
+        fill: black;
+      }
+
+      .path2 {
+        fill: #F5F6F7;
+      }
+    }
+  }
+}
